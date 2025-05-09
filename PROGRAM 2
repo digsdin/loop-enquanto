@@ -1,0 +1,35 @@
+programa {
+  funcao inicio() {
+      inteiro tamanhoSequencia, par = 0, contador = 0
+
+      escreva("Digite qual o tamanho da sequencia desejada? ")
+      leia(tamanhoSequencia)
+
+
+      para(contador; contador <= tamanhoSequencia; contador++){
+        contador = contador + 0
+        escreva(contador,"-")
+        
+      }
+      escreva("\n")
+
+      contador = 0
+
+      enquanto(contador <= tamanhoSequencia){
+        contador = contador + 1
+        escreva(contador," & ")
+        
+      }
+      escreva("\n")
+      contador = 0
+
+      faca{
+        contador = contador + 1
+        escreva(contador," * ")
+      }enquanto(contador <= 10)
+
+
+
+    
+  }
+}
